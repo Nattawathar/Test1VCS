@@ -1,6 +1,8 @@
 import random
 def generate_list():
         alist=[x for x in range(random.randint(-10,10))]
+        assert(alist != None)
+        assert(sum(alist) < 0)
         return alist
 """
 print a generated list
